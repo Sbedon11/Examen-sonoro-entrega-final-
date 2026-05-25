@@ -102,13 +102,158 @@ audio{
 }
 
 .degradado.brocoli{
-    background: radial-gradient(
-        circle at center,
-        #08451C,
-        #098231,
-        #0CAB41,
-        #0DE054
+    background-color: #d1fcd6;
+    opacity: 0.8;
+    background-image: radial-gradient(
+     circle at center center, #17760b, #d1fcd6), 
+     repeating-radial-gradient(
+        circle at center center, 
+        #17760b, 
+        #17760b, 10px, 
+        transparent 20px, 
+        transparent 10px);
+    background-blend-mode: multiply;
+}
+
+.degradado.musica{
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  repeating-radial-gradient(
+     circle at 0 100%, transparent 0, #e5e5f7 10px
+     ), 
+     repeating-linear-gradient( 
+        #cca11f55, 
+        #e18d07 );
+}
+        
+.degradado.cueva{
+    background-color: #d1cedd;
+    opacity: 0.8;
+    background-image:  repeating-linear-gradient(
+        45deg, 
+        #0674ce 25%, 
+        transparent 25%, 
+        transparent 75%, 
+        #0674ce 75%,
+        #0674ce), 
+        repeating-linear-gradient(
+            45deg, 
+            #0674ce 25%, 
+            #d1cedd 25%, 
+            #d1cedd 75%, 
+            #0674ce 75%,
+            #0674ce);
+    background-position: 0 0, 14px 14px;
+    background-size: 28px 28px;
+}
+
+.degradado.parque{
+    background:
+		  radial-gradient(50% 50% at 100% 0,#89ED89 0%  5% ,#15E514 6%  15%,#89ED89 16% 25%,#15E514 26% 35%,#89ED89 36% 45%,
+		   #15E514 46% 55%,#89ED89 56% 65%,#15E514 66% 75%,#89ED89 76% 85%,#15E514 86% 95%,
+		   #0000 96%),
+		  radial-gradient(50% 50% at 0 100%,#89ED89 0%  5% ,#15E514 6%  15%,#89ED89 16% 25%,#15E514 26% 35%,#89ED89 36% 45%,
+		   #15E514 46% 55%,#89ED89 56% 65%,#15E514 66% 75%,#89ED89 76% 85%,#15E514 86% 95%,
+		   #0000 96%),
+		  radial-gradient(50% 50%,#89ED89 0%  5% ,#15E514 6%  15%,#89ED89 16% 25%,#15E514 26% 35%,#89ED89 36% 45%,
+		   #15E514 46% 55%,#89ED89 56% 65%,#15E514 66% 75%,#89ED89 76% 85%,#15E514 86% 95%,
+		   #0000 96%),
+		  radial-gradient(50% 50%,#89ED89 0%  5% ,#15E514 6%  15%,#89ED89 16% 25%,#15E514 26% 35%,#89ED89 36% 45%,
+		   #15E514 46% 55%,#89ED89 56% 65%,#15E514 66% 75%,#89ED89 76% 85%,#15E514 86% 95%,
+		   #0000 96%) 89px 89px;
+	background-size: 178px 178px;
+	background-color: #89ED89;
+}
+
+.degradado.calle{
+    background-color: #000000;
+    opacity: 0.8;
+    background: linear-gradient(
+        135deg, 
+        #c83b3b55 25%, 
+        transparent 25%) -10px 0/ 20px 20px, 
+        linear-gradient(
+        225deg, 
+        #c83b3b 25%, 
+        transparent 25%)
+        -10px 0/ 20px 20px, 
+        linear-gradient(
+        315deg, 
+        #c83b3b55 25%, 
+        transparent 25%) 
+        0px 0/ 20px 20px,
+         linear-gradient(45deg, #c83b3b 25%, #000000 25%) 0px 0/ 20px 20px;
+}
+
+.degradado.vacas{
+	background:
+		  radial-gradient(#000000 49%,#0000 50%) calc(50px/-2) calc(50px/2),
+		  repeating-conic-gradient(from 45deg,#E4E4ED 0 25%,#0000 0 50%)
+			calc(50px/2) calc(50px/2),
+		  radial-gradient(#000000 49%,#0000 50%),radial-gradient(#000000 49%,#0000 50%) 50px 50px #E4E4ED;
+	background-size: calc(2*50px) calc(2*50px);
+}
+
+.degradado.pisadas{
+	background:
+		  conic-gradient(from -45deg,#020356 90deg,#0000 0 180deg,#4539FE 0 270deg,#0000 0)   
+			0 calc(100px/2)/100px 100px,    
+		  conic-gradient(from 135deg at 50% 0,#020356 90deg,#4539FE 0)  
+			0 0/calc(2*100px) 100px;
+}
+
+.degradado.tragar{
+	background: radial-gradient(at bottom right, #1A8FE5 0, #1A8FE5 10.75px, #1A8FE533 10.75px, #1A8FE533 21.5px, #1A8FE5BF 21.5px, #1A8FE5BF 32.25px, #1A8FE540 32.25px, #1A8FE540 43px, #1A8FE54D 43px, #1A8FE54D 53.75px, #1A8FE5BF 53.75px, #1A8FE5BF 64.5px, #1A8FE533 64.5px, #1A8FE533 75.25px, transparent 75.25px, transparent 86px), radial-gradient(at top left, transparent 0, transparent 10.75px, #1A8FE533 10.75px, #1A8FE533 21.5px, #1A8FE5BF 21.5px, #1A8FE5BF 32.25px, #1A8FE54D 32.25px, #1A8FE54D 43px, #1A8FE540 43px, #1A8FE540 53.75px, #1A8FE5BF 53.75px, #1A8FE5BF 64.5px, #1A8FE533 64.5px, #1A8FE533 75.25px, #1A8FE5 75.25px, #1A8FE5 86px, transparent 86px, transparent 215px);
+	background-blend-mode: multiply;
+	background-size: 86px 86px, 86px 86px;
+	background-color: #E4E4ED;
+}
+
+.degradado.boca {
+	background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #E52C83 10px, #E52C83 20px);
+	background-color: #ED51C4;
+}
+
+.degradado.teclado{
+
+    background-image:
+    radial-gradient(circle at 20% 20%, #ff2b2b 0 10%, transparent 11%),
+    radial-gradient(circle at 80% 30%, #00aaff 0 12%, transparent 13%),
+    radial-gradient(circle at 50% 80%, #ffee00 0 14%, transparent 15%);
+    background-color: #000;
+
+    background-size: 120px 120px;
+
+    background-repeat: repeat;
+}
+
+.degradado.lavadora{
+	background-image: radial-gradient(circle at center center, #5E5E5E, #171FE5), repeating-radial-gradient(circle at center center, #5E5E5E, #5E5E5E, 64px, transparent 128px, transparent 64px);
+	background-blend-mode: multiply;
+	background-color: #171FE5;
+}
+
+.degradado.joy-cons{
+
+    background-color: #000;
+
+    background-image:
+
+    linear-gradient(
+        90deg,
+        #fa1515 0 25px,
+        transparent 25px 50px
+    ),
+
+    linear-gradient(
+        0deg,
+        #2f8fb8 0 25px,
+        transparent 25px 50px
     );
+
+    background-size: 50px 50px;
+
+    background-repeat: repeat;
 }
 
 .video{
